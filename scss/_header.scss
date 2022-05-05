@@ -1,0 +1,62 @@
+header {
+    background: #4c3d74;
+    .navbar {
+        padding: 105px 0 0 !important;
+        & .navbar-collapse {
+            justify-content: end;
+            @media (max-width: 355px) {
+                & .navbar-nav {
+                    margin-top: 20px;
+                    align-items: center;
+                    & .nav-item {
+                        & .nav-link {
+                            font-family: "Futura PT";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            line-height: 18px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+            @media (min-width: 356px) and (max-width: 991px) {
+                & .navbar-nav {
+                    margin-top: 20px;
+                    align-items: center;
+                    & .nav-item {
+                        & .nav-link {
+                            font-family: "Futura PT";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            line-height: 18px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+            @media (min-width: 992px) {
+                & .navbar-nav {
+                    & .nav-item {
+                        margin-right: 40px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        & .nav-link {
+                            font-family: "Futura PT";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            line-height: 18px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

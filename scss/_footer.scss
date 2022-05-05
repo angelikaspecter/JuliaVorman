@@ -1,0 +1,102 @@
+@media (max-width: 355px) {
+    footer {
+        padding: 80px 40px;
+        background: #251933;
+        text-align: center;
+        .col {
+            display: flex;
+            flex-direction: column;
+        }
+        & a {
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 150%;
+            text-transform: uppercase;
+            text-decoration-line: underline;
+            color: #ffffff;
+            margin-bottom: 15px;
+            &:hover {
+                text-decoration-line: none;
+                color: #ffffff;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        & .design-author {
+            text-transform: none;
+        }
+    }
+}
+@media (min-width: 356px) and (max-width: 991px) {
+    footer {
+        padding: 80px 50px;
+        background: #251933;
+        text-align: center;
+        .col {
+            display: flex;
+            flex-direction: column;
+        }
+        & a {
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 150%;
+            text-transform: uppercase;
+            text-decoration-line: underline;
+            color: #ffffff;
+            margin-bottom: 15px;
+            &:hover {
+                text-decoration-line: none;
+                color: #ffffff;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        & .design-author {
+            text-transform: none;
+        }
+    }
+}
+@media (min-width: 992px) {
+    footer {
+        padding: 80px 50px;
+        background: #251933;
+        text-align: center;
+        .col {
+            display: flex;
+            flex-direction: column;
+            &:first-child {
+                text-align: left;
+            }
+            &:last-child {
+                text-align: right;
+            }
+        }
+        & a {
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 150%;
+            text-transform: uppercase;
+            text-decoration-line: underline;
+            color: #ffffff;
+            margin-bottom: 15px;
+            &:hover {
+                text-decoration-line: none;
+                color: #ffffff;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        & .design-author {
+            text-transform: none;
+        }
+    }
+}

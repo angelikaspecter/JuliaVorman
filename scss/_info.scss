@@ -1,0 +1,190 @@
+@media (max-width: 355px) {
+    .info {
+        padding: 80px 0;
+        text-align: center;
+        background: #4c3d74;
+        & .section-title {
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 150%;
+            color: #ffffff;
+        }
+        & .waiting-block {
+            margin: 30px 0 85px;
+            & .col {
+                display: flex;
+                align-items: center;
+                & img {
+                    width: 46px;
+                    height: 46px;
+                }
+                & .section-desc {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 150%;
+                    text-align: left;
+                    color: #ffffff;
+                    margin: 0;
+                    margin-left: 15px;
+                }
+            }
+        }
+        & .card {
+            border: none;
+            border-radius: 0;
+            background: transparent;
+            margin-top: 30px;
+            & .card-body {
+                padding: 0;
+                & .card-title {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 38px;
+                    text-align: left;
+                    color: #ffffff;
+                    margin-bottom: 5px;
+                }
+                & .card-text {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #ffffff;
+                    text-align: left;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 356px) and (max-width: 991px) {
+    .info {
+        padding: 80px 0;
+        text-align: center;
+        background: #4c3d74;
+        & .section-title {
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 150%;
+            color: #ffffff;
+        }
+        & .waiting-block {
+            margin: 30px 0 85px;
+            & .col {
+                display: flex;
+                align-items: center;
+                & .section-desc {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 150%;
+                    text-align: left;
+                    color: #ffffff;
+                    margin: 0;
+                    margin-left: 15px;
+                }
+            }
+        }
+        & .card {
+            border: none;
+            border-radius: 0;
+            background: transparent;
+            margin-top: 30px;
+            & .card-body {
+                padding: 0;
+                & .card-title {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 38px;
+                    text-align: left;
+                    color: #ffffff;
+                    margin-bottom: 5px;
+                }
+                & .card-text {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #ffffff;
+                    text-align: left;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    .info {
+        padding: 80px 50px;
+        text-align: center;
+        background: #4c3d74;
+        & .section-title {
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 64px;
+            color: #ffffff;
+        }
+        & .waiting-block {
+            margin: 30px 0 140px;
+            & .col {
+                display: flex;
+                align-items: center;
+                & .section-desc {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 150%;
+                    text-align: left;
+                    color: #ffffff;
+                    margin: 0;
+                    margin-left: 15px;
+                }
+            }
+        }
+        & .card {
+            border: none;
+            border-radius: 0;
+            background: transparent;
+            margin-top: 30px;
+            & .card-body {
+                padding: 0;
+                & .card-title {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 50px;
+                    line-height: 64px;
+                    text-align: left;
+                    color: #ffffff;
+                    margin-bottom: 5px;
+                }
+                & .card-text {
+                    font-family: "Futura PT";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #ffffff;
+                    text-align: left;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

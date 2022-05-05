@@ -1,0 +1,1709 @@
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus,
+input.active.focus,
+input.active:focus,
+input.focus,
+input:active.focus,
+input:active:focus,
+input:focus,
+select.active.focus,
+select.active:focus,
+select.focus,
+select:active.focus,
+select:active:focus,
+select:focus,
+textarea.active.focus,
+textarea.active:focus,
+textarea.focus,
+textarea:active.focus,
+textarea:active:focus,
+textarea:focus {
+  outline: 0 !important;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+          box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+header {
+  background: #4c3d74;
+}
+
+header .navbar {
+  padding: 105px 0 0 !important;
+}
+
+header .navbar .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+@media (max-width: 355px) {
+  header .navbar .navbar-collapse .navbar-nav {
+    margin-top: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 356px) and (max-width: 991px) {
+  header .navbar .navbar-collapse .navbar-nav {
+    margin-top: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  header .navbar .navbar-collapse .navbar-nav .nav-item {
+    margin-right: 40px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 545px) {
+  .promo {
+    padding: 110px 0;
+    background: #4c3d74;
+  }
+  .promo .section-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .promo .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    margin: 30px 0;
+  }
+  .promo .card {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  .promo .card .card-body .btn-lilac {
+    width: 100%;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+    margin-top: 27px;
+  }
+  .promo .card .card-body .btn-lilac:hover {
+    color: #ffffff;
+  }
+  .promo .card .card-body .btn-outline-lilac {
+    width: 100%;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    border: 4px solid #a387c4;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 546px) and (max-width: 991px) {
+  .promo {
+    padding: 110px 20px;
+    background: #4c3d74;
+  }
+  .promo .section-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #ffffff;
+  }
+  .promo .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: left;
+    color: #ffffff;
+    margin: 30px 0;
+  }
+  .promo .card {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  .promo .card .card-body {
+    padding: 0;
+  }
+  .promo .card .card-body .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .promo .card .card-body .btn-box .btn-lilac {
+    width: 245px;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+    margin-top: 27px;
+    margin-right: 24px;
+  }
+  .promo .card .card-body .btn-box .btn-lilac:hover {
+    color: #ffffff;
+  }
+  .promo .card .card-body .btn-box .btn-outline-lilac {
+    width: 245px;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    border: 4px solid #a387c4;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 27px;
+  }
+}
+
+@media (min-width: 992px) {
+  .promo {
+    padding: 182px 0;
+    background: #4c3d74;
+  }
+  .promo .section-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    color: #ffffff;
+  }
+  .promo .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    margin: 30px 0;
+  }
+  .promo .card {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  .promo .card .card-body {
+    padding: 0;
+  }
+  .promo .card .card-body .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .promo .card .card-body .btn-box .btn-lilac {
+    width: 245px;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+    margin-top: 27px;
+    margin-right: 24px;
+  }
+  .promo .card .card-body .btn-box .btn-lilac:hover {
+    color: #ffffff;
+  }
+  .promo .card .card-body .btn-box .btn-outline-lilac {
+    width: 245px;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    border: 4px solid #a387c4;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 27px;
+  }
+}
+
+@media (max-width: 355px) {
+  .info {
+    padding: 80px 0;
+    text-align: center;
+    background: #4c3d74;
+  }
+  .info .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+  .info .waiting-block {
+    margin: 30px 0 85px;
+  }
+  .info .waiting-block .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info .waiting-block .col img {
+    width: 46px;
+    height: 46px;
+  }
+  .info .waiting-block .col .section-desc {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+    margin-left: 15px;
+  }
+  .info .card {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    margin-top: 30px;
+  }
+  .info .card .card-body {
+    padding: 0;
+  }
+  .info .card .card-body .card-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  .info .card .card-body .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 356px) and (max-width: 991px) {
+  .info {
+    padding: 80px 0;
+    text-align: center;
+    background: #4c3d74;
+  }
+  .info .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+  .info .waiting-block {
+    margin: 30px 0 85px;
+  }
+  .info .waiting-block .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info .waiting-block .col .section-desc {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+    margin-left: 15px;
+  }
+  .info .card {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    margin-top: 30px;
+  }
+  .info .card .card-body {
+    padding: 0;
+  }
+  .info .card .card-body .card-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  .info .card .card-body .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .info {
+    padding: 80px 50px;
+    text-align: center;
+    background: #4c3d74;
+  }
+  .info .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    color: #ffffff;
+  }
+  .info .waiting-block {
+    margin: 30px 0 140px;
+  }
+  .info .waiting-block .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info .waiting-block .col .section-desc {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+    margin-left: 15px;
+  }
+  .info .card {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    margin-top: 30px;
+  }
+  .info .card .card-body {
+    padding: 0;
+  }
+  .info .card .card-body .card-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  .info .card .card-body .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 355px) {
+  .price {
+    padding: 80px 0;
+    background: #4c3d74;
+  }
+  .price .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  .price .card {
+    background: #f2eef7;
+    border-radius: 30px;
+    padding: 50px 20px 40px;
+    position: relative;
+  }
+  .price .card .card-body {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .price .card .card-body .card-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+  }
+  .price .card .card-body .card-list .card-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-bottom: 15px;
+  }
+  .price .card .card-body .card-list .card-list-item .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    color: #4c3d74;
+    margin-left: 12px;
+  }
+  .price .card .card-body .card-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: left;
+    width: 100%;
+  }
+  .price .card .card-body dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .price .card .card-body dl dt {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: left;
+    padding: 0;
+  }
+  .price .card .card-body dl dd {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: right;
+    margin: 0;
+  }
+  .price .card .card-body .btn-lilac {
+    position: absolute;
+    bottom: -70px;
+    width: 250px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+  .price .card.card-lite::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/lite.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .card.card-plus::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/plus-card.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .card.card-bomba::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/bomba.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .price-ads {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .price .price-ads img {
+    margin-bottom: 25px;
+  }
+  .price .price-ads .section-desc {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .price .price-ads .btn-outline-lilac {
+    width: 245px;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    border: 4px solid #a387c4;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-bottom: 25px;
+  }
+  .price .price-ads .author {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 356px) and (max-width: 991px) {
+  .price {
+    padding: 80px 10px;
+    background: #4c3d74;
+  }
+  .price .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  .price .card {
+    background: #f2eef7;
+    border-radius: 30px;
+    padding: 50px 20px 40px;
+    position: relative;
+  }
+  .price .card .card-body {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .price .card .card-body .card-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+  }
+  .price .card .card-body .card-list .card-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-bottom: 15px;
+  }
+  .price .card .card-body .card-list .card-list-item .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    color: #4c3d74;
+    margin-left: 12px;
+  }
+  .price .card .card-body .card-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: left;
+    width: 100%;
+  }
+  .price .card .card-body dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .price .card .card-body dl dt {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: left;
+    padding: 0;
+  }
+  .price .card .card-body dl dd {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: right;
+    margin: 0;
+  }
+  .price .card .card-body .btn-lilac {
+    position: absolute;
+    bottom: -70px;
+    width: 250px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+  }
+  .price .card.card-lite::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/lite.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .card.card-plus::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/plus-card.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .card.card-bomba::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/bomba.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .price-ads {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .price .price-ads img {
+    margin-bottom: 25px;
+  }
+  .price .price-ads .section-desc {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .price .price-ads .btn-outline-lilac {
+    width: 245px;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    border: 4px solid #a387c4;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-bottom: 25px;
+  }
+  .price .price-ads .author {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  .price {
+    padding: 80px 0;
+    background: #4c3d74;
+  }
+  .price .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  .price .card {
+    background: #f2eef7;
+    border-radius: 30px;
+    padding: 50px 20px 40px;
+    position: relative;
+  }
+  .price .card .card-body {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .price .card .card-body .card-list {
+    padding: 0;
+    list-style: none;
+  }
+  .price .card .card-body .card-list .card-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-bottom: 15px;
+  }
+  .price .card .card-body .card-list .card-list-item .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    color: #4c3d74;
+    margin-left: 12px;
+  }
+  .price .card .card-body .card-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: left;
+    width: 100%;
+  }
+  .price .card .card-body dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .price .card .card-body dl dt {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: left;
+    padding: 0;
+  }
+  .price .card .card-body dl dd {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+    text-align: right;
+    margin: 0;
+  }
+  .price .card .card-body .btn-lilac {
+    position: absolute;
+    bottom: -70px;
+    width: 250px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+  }
+  .price .card.card-lite::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/lite.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .card.card-plus::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/plus-card.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .card.card-bomba::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background: url("../img/bomba.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .price .price-ads {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .price .price-ads .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .price .price-ads img {
+    margin-right: 30px;
+  }
+  .price .price-ads .section-desc {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #ffffff;
+  }
+  .price .price-ads .btn-outline-lilac {
+    width: 245px;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    border: 4px solid #a387c4;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-right: 40px;
+  }
+  .price .price-ads .author {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    margin: 0;
+  }
+}
+
+@media (max-width: 489px) {
+  .faq {
+    padding: 80px 0 265px;
+    position: relative;
+  }
+  .faq::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    width: 215px;
+    height: 215px;
+    background: url("../img/woman-supervillain.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .faq .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #504178;
+    margin-bottom: 50px;
+  }
+  .faq .accordion {
+    border-top: 3px solid #4c3d74;
+    border-bottom: 3px solid #4c3d74;
+  }
+  .faq .accordion .accordion-item {
+    border-bottom: 3px solid #4c3d74;
+  }
+  .faq .accordion .accordion-item .accordion-header {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4c3d74;
+  }
+  .faq .accordion .accordion-item .accordion-header .accordion-button {
+    color: #4c3d74;
+  }
+  .faq .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    color: #4c3d74;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  }
+  .faq .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%234c3d74'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .faq .accordion .accordion-item .accordion-body {
+    color: #4d3e75;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "FuturaPT";
+    text-transform: uppercase;
+  }
+  .faq .faq-contact {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+  }
+  .faq .faq-contact .faq-desc {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #4c3d74;
+    margin-left: 25px;
+  }
+  .faq .card {
+    border: 0;
+  }
+  .faq .card .card-body {
+    padding: 30px 20px 30px 60px;
+    background: #f2eef7;
+    border: 3px solid #4c3d74;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .faq .card .card-body img {
+    position: absolute;
+    left: -45px;
+  }
+  .faq .card .card-body .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+  }
+  .faq .btn-lilac {
+    width: 100%;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+  }
+  .faq .btn-lilac:hover {
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 490px) and (max-width: 991px) {
+  .faq .container {
+    padding: 80px 20px 265px;
+    position: relative;
+  }
+  .faq .container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 215px;
+    height: 215px;
+    background: url("../img/woman-supervillain.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .faq .container .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #504178;
+    margin-bottom: 50px;
+  }
+  .faq .container .accordion {
+    border-top: 3px solid #4c3d74;
+  }
+  .faq .container .accordion .accordion-item {
+    border-bottom: 3px solid #4c3d74;
+  }
+  .faq .container .accordion .accordion-item .accordion-header {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4c3d74;
+  }
+  .faq .container .accordion .accordion-item .accordion-header .accordion-button {
+    color: #4c3d74;
+  }
+  .faq .container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    color: #4c3d74;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  }
+  .faq .container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%234c3d74'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .faq .container .accordion .accordion-item .accordion-body {
+    color: #4d3e75;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "FuturaPT";
+    text-transform: uppercase;
+  }
+  .faq .container .faq-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 0 0;
+  }
+  .faq .container .faq-info .faq-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .faq .container .faq-info .faq-contact .faq-desc {
+    width: 300px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #4c3d74;
+    margin: 0;
+    margin-left: 25px;
+  }
+  .faq .container .faq-info .btn-lilac {
+    width: 100%;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+  }
+  .faq .container .faq-info .btn-lilac:hover {
+    color: #ffffff;
+  }
+  .faq .container .card {
+    border: 0;
+  }
+  .faq .container .card .card-body {
+    padding: 30px 20px 30px 60px;
+    background: #f2eef7;
+    border: 3px solid #4c3d74;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .faq .container .card .card-body img {
+    position: absolute;
+    left: -45px;
+  }
+  .faq .container .card .card-body .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+  }
+}
+
+@media (min-width: 992px) {
+  .faq .container {
+    padding: 80px 0 175px;
+    position: relative;
+  }
+  .faq .container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 215px;
+    height: 215px;
+    background: url("../img/woman-supervillain.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+  .faq .container .section-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #504178;
+    margin-bottom: 50px;
+  }
+  .faq .container .accordion {
+    border-top: 3px solid #4c3d74;
+  }
+  .faq .container .accordion .accordion-item {
+    border-bottom: 3px solid #4c3d74;
+  }
+  .faq .container .accordion .accordion-item .accordion-header {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4c3d74;
+  }
+  .faq .container .accordion .accordion-item .accordion-header .accordion-button {
+    color: #4c3d74;
+  }
+  .faq .container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    color: #4c3d74;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  }
+  .faq .container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%234c3d74'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .faq .container .accordion .accordion-item .accordion-body {
+    color: #4d3e75;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "FuturaPT";
+    text-transform: uppercase;
+  }
+  .faq .container .faq-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 0 0;
+  }
+  .faq .container .faq-info .faq-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .faq .container .faq-info .faq-contact .faq-desc {
+    width: 300px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #4c3d74;
+    margin: 0;
+    margin-left: 25px;
+  }
+  .faq .container .faq-info .btn-lilac {
+    width: 245px;
+    height: 60px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    color: #ffffff;
+    background: #a387c4;
+    border-radius: 30px;
+  }
+  .faq .container .faq-info .btn-lilac:hover {
+    color: #ffffff;
+  }
+  .faq .container .card {
+    border: 0;
+  }
+  .faq .container .card .card-body {
+    padding: 30px 20px 30px 60px;
+    background: #f2eef7;
+    border: 3px solid #4c3d74;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .faq .container .card .card-body img {
+    position: absolute;
+    left: -45px;
+  }
+  .faq .container .card .card-body .card-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4c3d74;
+  }
+}
+
+@media (max-width: 355px) {
+  footer {
+    padding: 80px 40px;
+    background: #251933;
+    text-align: center;
+  }
+  footer .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer a {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: uppercase;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  footer a:hover {
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: #ffffff;
+  }
+  footer a:last-child {
+    margin-bottom: 0;
+  }
+  footer .design-author {
+    text-transform: none;
+  }
+}
+
+@media (min-width: 356px) and (max-width: 991px) {
+  footer {
+    padding: 80px 50px;
+    background: #251933;
+    text-align: center;
+  }
+  footer .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer a {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: uppercase;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  footer a:hover {
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: #ffffff;
+  }
+  footer a:last-child {
+    margin-bottom: 0;
+  }
+  footer .design-author {
+    text-transform: none;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    padding: 80px 50px;
+    background: #251933;
+    text-align: center;
+  }
+  footer .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .col:first-child {
+    text-align: left;
+  }
+  footer .col:last-child {
+    text-align: right;
+  }
+  footer a {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: uppercase;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  footer a:hover {
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: #ffffff;
+  }
+  footer a:last-child {
+    margin-bottom: 0;
+  }
+  footer .design-author {
+    text-transform: none;
+  }
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  font-family: "Futura PT";
+  overflow-x: hidden;
+}

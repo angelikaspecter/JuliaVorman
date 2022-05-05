@@ -1,0 +1,30 @@
+@import "_outline";
+@import "_visually-hidden";
+@import "_header";
+@import "_promo";
+@import "_info";
+@import "_price";
+@import "_faq";
+@import "_footer";
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: "Futura PT";
+    overflow-x: hidden;
+}
+
+@media (max-width: 355px) {
+}
+@media (min-width: 356px) and (max-width: 991px) {
+}
+@media (min-width: 992px) {
+}

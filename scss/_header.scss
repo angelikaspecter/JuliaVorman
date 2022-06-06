@@ -1,7 +1,7 @@
 header {
     background: #4c3d74;
     .navbar {
-        padding: 105px 0 0 !important;
+        padding: 1em 0 0 !important;
         & .navbar-collapse {
             justify-content: end;
             @media (max-width: 355px) {
